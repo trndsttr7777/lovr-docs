@@ -24,6 +24,11 @@ Creating an Executable
 Once you have a project archive, it can be appended to the LÖVR program to create a standalone
 executable.  On Windows, this can be done using the command prompt:
 
+:::note
+Only in cmd, not powersell
+Plus, sometimes it won't work and said 'packaged incorretly'
+:::
+
     $ copy /b lovr.exe+MyProject.zip MyProject.exe
 
 On Unix systems, the `cat` utility can be used to concatenate the two files:
